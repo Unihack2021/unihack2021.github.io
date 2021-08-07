@@ -26,41 +26,73 @@
         href="https://olympics.com/tokyo-2020/olympic-games/resCOMMON/style/tablesorter.theme.default.css">
     <link rel="stylesheet" type="text/css"
         href="https://olympics.com/tokyo-2020/olympic-games/resCOMMON/style/fontawesome.min.css">
+    <link href="assets/css/main.css" rel="stylesheet" media="screen">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/lux/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-smnSwzHqW1zKbeuSMsAM/fMQpkk7HY11LuHiwT8snL/W2QBoZtVCT4H5x1CEcJCs" crossorigin="anonymous">
 </head>
 
 <body>
-    <ul class="navbar-nav nav w-100">
-        <li class="nav-item ">
-            <a class="nav-link current"
-                href="https://olympics.com/tokyo-2020/olympic-games/en/results/all-sports/medal-standings.htm">
-                Medal Standings</a>
-        </li>
-        <li class="nav-item ">
-            <a class="nav-link"
-                href="https://olympics.com/tokyo-2020/olympic-games/en/results/all-sports/medalists.htm">
-                Medalists</a>
-        </li>
-        <li class="nav-item ">
-            <a class="nav-link"
-                href="https://olympics.com/tokyo-2020/olympic-games/en/results/all-sports/multi-medalists.htm">
-                Multi-Medalists</a>
-        </li>
-        <li id="activity-list-link" class="d-none nav-item">
-            <a class="nav-link" href="#">Activity List</a>
-        </li>
-        <li id="non-competition-schedule-link" class="d-none nav-item">
-            <a class="nav-link" href="#">Non Competition Schedule</a>
-        </li>
-    </ul>
     <div id="medal_standing">
+        <header class="header-3">
+
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="headerbox">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <!-- Logo-->
+                            <div class="col col-xl-12 text-center">
+                                <div class="logo">
+                                    <a href="index-4.html" title="Return Home">
+                                        <img src="img/logo.png" alt="Logo" class="logo_img">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End Logo-->
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav mr-auto"></ul>
+                    <ul class="nav navbar-nav navbar-right-custom">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-4.html">Prediction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="country.html">Countries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="schedule.html">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="medalTable.html">Records</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="machine_learning.html">Predictions</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <!-- End mainmenu-->
+        </header>
+        <!-- End Header-->
+
         <div class="form-inline mb-2 mr-sm-2 ">
             <div class="form-group mr-2 ">
                 <div class="dropdown">
                     <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sportSelectorId"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        <img class="sport-icon"
-                            src="https://olympics.com/tokyo-2020/olympic-games/resOG2020-/img/sports/ZZZ.png"
-                            role="presentation" aria-hidden="true" alt="">
+
                         All Sports<span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="sportSelectorId">
@@ -3607,16 +3639,18 @@
             </tbody>
         </table>
     </div>
-    <script src="" async defer></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    <!-- ======================= JQuery libs =========================== -->
+    <!-- jQuery local-->
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <!-- popper.js-->
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <!-- bootstrap.min.js-->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <!-- required-scripts.js-->
+    <script type="text/javascript" src="assets/js/theme-scripts.js"></script>
+    <!-- theme-main.js-->
+    <script type="text/javascript" src="assets/js/theme-main.js"></script>
+    <!-- ======================= End JQuery libs =========================== -->
 </body>
 
 </html>

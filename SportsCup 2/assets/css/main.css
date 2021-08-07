@@ -233,13 +233,14 @@ sub {
 
 /* line 181, ../sass/bootstrap/_reboot.scss */
 sup {
+
   top: -.5em;
 }
 
 /* line 188, ../sass/bootstrap/_reboot.scss */
 a {
-  color: #007bff;
-  text-decoration: none;
+  color: #676767 !important;
+  text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }

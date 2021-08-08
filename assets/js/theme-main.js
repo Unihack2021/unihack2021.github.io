@@ -128,7 +128,7 @@ $(document).ready(function ($) {
 
   //=================================== Counter  ==============================//
 
-  $('#event-one').countdown('2021/08/24', function (event) {
+  $('#event-one').countdown('2021/08/9', function (event) {
     var $this = $(this).html(event.strftime('' +
       '<span>%D <br> <small>days</small></span>  ' +
       '<span>%H <br> <small>hr</small> </span>  ' +

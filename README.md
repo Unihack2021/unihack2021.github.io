@@ -79,24 +79,6 @@ OLYMPEDIA has three core modules：
 * Managing PyTorch training and evaluating pipeline
 * Utilizing various tools to locate sources of memory leak
 
-## What's next for Untitled
-* Extend our AI Judge to other Olympic sports such as Gymnastics, Snowboarding, Skiing, etc.
-* Compare our medal predictions to the actual results once the 2021 Tokyo Olympics is done.
-
-* Re-adjusting network parameters in order to fix shape mismatch
-* Frontend visualization of the diagrams trained in python
-* Limited memory in Heroku - some dependencies don't fit
-
-## Accomplishments that we're proud of
-* Great teamwork & task distributions! Successfully combined everyone’s work and deployed
-* Successfully locate PyTorch CUDA memory leak during the training process
-* Successfully processed all the data and have some nice visualization
-* Successfully deployed streamlit on Heroku
-
-## What we learned
-* Managing PyTorch training and evaluating pipeline
-* Utilizing various tools to locate sources of memory leak
-
-## What's next for Untitled
+## What's next for OLYMPEDIA
 * Extend our AI Judge to other Olympic sports such as Gymnastics, Snowboarding, Skiing, etc.
 * Compare our medal predictions to the actual results once the 2021 Tokyo Olympics is done.

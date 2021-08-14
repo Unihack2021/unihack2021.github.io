@@ -1,3 +1,8 @@
+## Intro
+This is a project for 2021 [Unihack](https://devpost.com/software/olympedia-prediction) completed within 36 hours. <br>
+We finally won the Best Hardcore Technology Award XD<br>
+Try it out: unihack2021.github.io
+
 ## Inspiration
 The 2021 Tokyo Olympic Games is one of the biggest topics in recent days and has attracted a lot of attention. While there are many sports enthusiasts, the vast majority of people lack the background understanding of certain sports, which prevents them from getting involved in matches and knowing the technical details/difficulties of sports and the stories behind countries and athletes.
 
